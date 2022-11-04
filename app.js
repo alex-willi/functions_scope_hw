@@ -20,9 +20,15 @@ console.log(calculateCube(10))
 
 // 3. isAVowel
 function isAVowel(letter) {
-    // YOUR CODE HEREnode app.js
 
+    if (letter == "a" || letter== "e" ||letter== "i" ||letter== "o" ||letter== "u"){
+        return true
+    }else{
+        return false
+    }
+    // YOUR CODE HEREnode app.js
 }
+console.log(isAVowel("a"));
 
 // 4. getTwoLengths
 function getTwoLengths(word1, word2) {
