@@ -1,8 +1,14 @@
 // 1.1. What is the difference between a parameter and an argument?
+// parameters are the names assigned to a function's arguments value.
+// function example (parameters, parameter)
+// example (arguments, argument)
 
 // 1.2. Within a function, what is the difference between return and console.log?
+// A console.log() Displays what is passed to it.
+// A return ends the execution of a function and return a value.
 
 // 1. 3. What are the implications of the ability of a function to return a value?
+//A function does not need a return value. If a function has a return value return must be the last statement.
 
 // 2. calculateCube
 function calculateCube(num) {
