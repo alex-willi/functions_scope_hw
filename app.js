@@ -12,12 +12,16 @@
 
 // 2. calculateCube
 function calculateCube(num) {
+    let cube = (num*num)*num
+    return cube
     // YOUR CODE HERE
 }
+console.log(calculateCube(10))
 
 // 3. isAVowel
 function isAVowel(letter) {
-    // YOUR CODE HERE
+    // YOUR CODE HEREnode app.js
+
 }
 
 // 4. getTwoLengths
