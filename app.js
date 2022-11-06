@@ -39,11 +39,17 @@ function getTwoLengths(word1, word2) {
     return myArry
 }
 console.log(getTwoLengths("Hank", "Hippopopalous"));
+
 // 5. sumArray
 function sumArray(arr) {
+    let sum = 0
+    for (let i = 0; i < arr.length; i += 1){
+        sum += arr[i]
+    }
+    return sum;
     // YOUR CODE HERE
 }
-
+console.log(sumArray([1, 2, 3, 4, 5, 6]));
 // 6.1 checkPrime
 function checkPrime(num) {
     // YOUR CODE HERE
