@@ -52,14 +52,14 @@ function sumArray(arr) {
 console.log(sumArray([1, 2, 3, 4, 5, 6]));
 // 6.1 checkPrime
 function checkPrime(num) {
-    const sqnum = Math.sqrt(num);
-    for (i = 2; i <= sqnum; i ++){
-        if (num % i === 0 || num % 3 === 0 || num % 5 ===0) {
+    for (i = 2; i <= num; i ++){;
+        if (num % i == 0  || num % 3 === 0 || num % 5 ===0) {
         return false
     }else{
         return true
     }
     // YOUR CODE HERE
+    
 }
 }
 
@@ -68,7 +68,7 @@ function checkPrime(num) {
 function printPrimes(num) {
     for (let i = 2; i <= num; i++) {
         if (checkPrime(i)){
-        console.log(i)
+        console.log((i))
         }
     }
     // YOUR CODE HERE
@@ -106,6 +106,7 @@ function findNeedle(arr) {
 
 // 10. sumPositive
 function sumPositive(arr) {
+    }
     // YOUR CODE HERE
 }
 
