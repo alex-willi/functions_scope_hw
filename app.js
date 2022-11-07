@@ -77,9 +77,16 @@ printPrimes(num)
 
 // 7. printLongestWord
 function printLongestWord(arr) {
-    for (i = 0; i <= arr.length; i ++){
-        
+    let longest = arr[0].length;
+    let solution = arr[0];
+    for (let i = 1; i < arr.length; i++) {
+        let maxi = arr[i].length;
+        if (maxi > longest) {
+            solution = arr[i];
+    
+        }
     }
+    return solution;
     // YOUR CODE HERE
 }
 console.log(printLongestWord(["BoJack", "Princess", "Diane", "a", "Max", "Peanutbutter", "big", "blob"]));
