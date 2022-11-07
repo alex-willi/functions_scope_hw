@@ -52,8 +52,9 @@ function sumArray(arr) {
 console.log(sumArray([1, 2, 3, 4, 5, 6]));
 // 6.1 checkPrime
 function checkPrime(num) {
-    for (i = 2; i <= num; i ++){
-        if (num % i === 0 || num % 3 === 0 || num % 5 ===0){
+    const sqnum = Math.sqrt(num);
+    for (i = 2; i <= sqnum; i ++){
+        if (num % i === 0 || num % 3 === 0 || num % 5 ===0) {
         return false
     }else{
         return true
